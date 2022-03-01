@@ -1,0 +1,43 @@
+.inputContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  padding: 10px 0;
+}
+
+.textInput {
+  margin: 4px;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #f3f3f3;
+  border-radius: 8px;
+}
+
+.textInput:focus {
+  border: 2px solid #ababab;
+  outline: none;
+}
+
+.btn__enable, .btn__disable {
+  margin: 4px;
+  padding: 8px;
+  font-size: 16px;
+  color: #777272;
+  border: 2px solid #f3f3f3;
+  border-radius: 8px;
+}
+
+.btn__enable {
+  color: #f3f3f3;
+  cursor: pointer;
+  background-color: #5e5ef1;
+}
+
+.btn__disable {
+  color: #f3f3f3;
+  background-color: #a2a2f1;
+}
+
